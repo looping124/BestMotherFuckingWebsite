@@ -1,0 +1,109 @@
+#main-wrapper
+{
+    font-size: 16px;
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    margin-top: 80px;
+    color: #454545;
+    line-height: 1.6em;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 4px;
+    
+    
+}
+h1
+{
+    margin-bottom: 20px;
+}
+a:link
+{
+    color: #0077aa;
+}
+a:visited
+{
+    color: #941352;
+}
+.mfw
+{
+    color: #730000;
+}
+.wrong
+{
+    color: #c0392b;
+    text-decoration: underline;
+    font-weight: bold;
+}
+small
+{
+    font-size: 6px;
+}
+@keyframes rainbow {
+    0% {color: red;}
+    14%{color: orange;}
+    28%{color: yellow;}
+    42%{color: green;}
+    56%{color: cyan;}
+    70%{color: blue;}
+    84%{color: purple;}
+    100%{color: red;}
+
+}
+
+.arc
+{
+    animation: rainbow 10s infinite;
+    
+}
+
+#conteneur
+{
+    display: flex;
+    align-content: flex-start;
+}
+figcaption
+{
+    font-size: 12px;
+}
+.carre::before
+{
+    content: "■";
+    font-size: 25px;
+}
+.carre
+{
+    font-weight: bold;
+    font-size: 20px;
+}
+.carre1
+{
+    color: red;
+}
+.carre2
+{
+    color: royalblue;
+}
+#conteneur2
+{
+    display: flex;
+    justify-content: center;
+}
+.sb
+{
+    cursor: not-allowed;
+    color: blue;
+}
+.citation::before
+{
+    content: "\"";
+    font-size: 25px;
+}
+.auteur::before
+{
+    content: "-  ";
+    font-size: 25px;
+}
+.auteur
+{
+    font-size: 8px;
+}
